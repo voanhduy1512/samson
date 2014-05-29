@@ -57,6 +57,8 @@ script/bootstrap
 # [OPTIONAL]
 # GITHUB_ADMIN_TEAM (team members automatically become Samson admins)
 # GITHUB_DEPLOY_TEAM (team members automatically become Samson deployers)
+# GITHUB_WEB_URL (URL for Github, useful for GitHub Enterprise installs)
+# GITHUB_API_URL (URL for the GitHub API, useful for GitHub Enterprise installs)
 # DEFAULT_URL (URL used by the mailer)
 #
 # Authentication is also possible using Zendesk, in that case set your
