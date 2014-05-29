@@ -53,6 +53,7 @@ script/bootstrap
 #
 # GITHUB_TOKEN is a personal GitHub token. You can generate a new
 # at https://github.com/settings/applications - it gets assigned to GITHUB_TOKEN.
+# The token must have 'repo', 'public_repo' and 'read:org' permissions.
 #
 # [OPTIONAL]
 # GITHUB_ADMIN_TEAM (team members automatically become Samson admins)
