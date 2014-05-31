@@ -1,6 +1,0 @@
-test:
-  adapter: postgresql
-  username: postgres
-  encoding: utf8
-  database: samson_test
-

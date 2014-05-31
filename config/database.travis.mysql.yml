@@ -1,5 +1,0 @@
-test:
-  adapter: mysql2
-  username: travis
-  encoding: utf8
-  database: samson_test

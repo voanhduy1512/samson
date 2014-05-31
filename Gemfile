@@ -5,9 +5,11 @@ gem 'puma'
 gem 'dotenv-rails', '~> 0.9'
 
 # Database (use one of these)
-gem 'sqlite3'
-gem 'mysql2', '~> 0.3'
-gem 'pg', '~>0.13.2'
+group :development, :production do
+  # gem 'sqlite3'
+  gem 'mysql2', '~> 0.3'
+  # gem 'pg', '~>0.13.2'
+end
 
 gem 'kaminari'
 gem 'soft_deletion', '~> 0.4'
@@ -70,4 +72,7 @@ group :test do
   gem 'bourne'
   gem 'webmock', require: false
   gem 'simplecov', require: false
+  gem 'sqlite3'
+  gem 'mysql2', '~> 0.3'
+  gem 'pg', '~>0.13.2'
 end
