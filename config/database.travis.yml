@@ -1,6 +1,6 @@
 sqlite: &sqlite
   adapter: sqlite3
-  database: :memory
+  database: ":memory:"
 
 mysql: &mysql
   adapter: mysql2
